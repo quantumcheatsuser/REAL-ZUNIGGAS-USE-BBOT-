@@ -1,29 +1,4 @@
---[[
 
-    ~ New Discord Server ~
-
-    [ https://discord.gg/tUEJZYvF9d ]
-
-    ~ Index ~
-
-    [ Drawing Library ] - [ Line 111 ]
-    [ UI Library ] - [ Line 1117 ]
-    [ Cham Library ] - [ Line 2710 ]
-    [ Main Cheat ] - [ Line 2766 ]
-    [ Make UI ] - [ Line 5778 ]
-
-    ~ Credits ~
-
-    [ iRay ] - [ @896378803868295178 ] | Lead developer
-    [ Mickey ] - [ @953720095811719208 ] | Developed perfect trajectory function and ESP library
-    [ Redpoint ] - [ @418013390024474624 ] | Contributed to triangles in the custom drawing api
-
-    ~ Special Thanks ~
-
-    [ BBot ] - [ Inspiration to make such a nice UI and high quality/quantity feature list ]
-    [ Legacy ] - [ Best and only beta tester ]
-    
-]]
 
 function LPH_NO_VIRTUALIZE(fuction) -- unnecessary now
     return fuction
@@ -6282,7 +6257,7 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
     cheatSettings:AddToggle("Show Keybind List", false, getCallback("Cheat Settings%%Show Keybind List"))
     cheatSettings:AddToggle("Show Key Name", false, getCallback("Cheat Settings%%Show Key Name"))
     cheatSettings:AddButton("Copy Discord Invite", function()
-        setclipboard("https://discord.gg/tUEJZYvF9d") -- pro
+        setclipboard("") -- pro
     end)
     cheatSettings:AddButton("Unload", function()
         unloadMain()
